@@ -81,6 +81,7 @@ $(document).ready(function () {
         // input-${i} corresponds with the unique id of each element 
         let currentIndex = $(`#input-${i}`);
 
+        //distinguish between each of the events 
         if (moment().isBefore(eachtimeBlock)) {
             currentIndex.addClass("future");
         } else if (moment().isAfter(eachtimeBlock)) {
