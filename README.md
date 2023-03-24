@@ -11,6 +11,8 @@ Even if refreshed or close the app, the information would still be available - a
 
 ## Screenshot
 
+<img src="/Users/shahee/Desktop/Bootcamp/week-7/Daily-Planner-App/images/Screenshot 2023-03-24 at 03.37.23.png">
+
 
 ## Link to Deployed application
 https://shahee05.github.io/Daily-Planner-App/
@@ -19,6 +21,8 @@ https://shahee05.github.io/Daily-Planner-App/
 MIT License
 
 ## Project Status
-Working with APIs - ongoing
+Working with Third-Party APIs (jQuery) - ongoing
+
+## Other information
 Further help received from team members and StackOverflow. 
 
