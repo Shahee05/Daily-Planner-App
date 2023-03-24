@@ -11,7 +11,7 @@ Even if refreshed or close the app, the information would still be available - a
 
 ## Screenshot
 
-<img src="/Users/shahee/Desktop/Bootcamp/week-7/Daily-Planner-App/images/Screenshot 2023-03-24 at 03.37.23.png">
+<img src="./images/DailyAppScreenshot.png">
 
 
 ## Link to Deployed application
