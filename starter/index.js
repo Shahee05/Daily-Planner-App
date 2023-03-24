@@ -7,7 +7,10 @@ $(document).ready(function () {
 // Forming a working schedule between 9 -5pm
     let hours = [];
     for (let i = 9; i <= 17; i++) {
-        let hour = (i < 12 ? i + "am" : (i === 12 ? i + "pm" : (i - 12) + "pm"));
+        let hour = (
+            i < 12 ? i + "am" : (i === 12 ? i + "pm" : (i - 12) + "pm"
+            )
+            );
         hours.push(hour);
     }
 
@@ -29,7 +32,7 @@ $(document).ready(function () {
         let currentNewEvent = `inputActivity${index}`;
         let storedSchedule = localStorage.getItem(currentNewEvent);
 
-        //If there is a stored schedule, we want to save it if its form today hence use split to divide the array
+        //If there is a stored schedule, we want to save it if its from today hence use split to divide the array
         if (storedSchedule) {
             let splitInputActivity = storedSchedule.split("<>");
             if (splitInputActivity[1] === currentDay) {
@@ -40,7 +43,7 @@ $(document).ready(function () {
             }
         }
 
-        // make a save button
+        // make a save button - the code creased a unique name which is stored 
         let saveData = $("<button>")
             .addClass("saveBtn col-2")
             .html("<i class='fas fa-save'></i>");
@@ -89,7 +92,7 @@ $(document).ready(function () {
 });
 
 //attempted colour change grid to differentiate between past present and future 
-
+   //check if that the .hour text value, is the same, before or after today's i.e. current hour
 function colorChange() {
     var hourBlock = moment().hours();
   
